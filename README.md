@@ -1,35 +1,14 @@
-# Task Management System (Backend API)
+# Task Management System – Backend
 
-This project is a Task Management Backend API built using Node.js and TypeScript.
+A backend Task Management System built as part of a software engineering assessment.
 
-## Features
-- User Authentication (Register, Login)
-- Password hashing using bcrypt
-- JWT-based authentication
-- Task CRUD operations (Create, Read, Update, Delete)
-- Protected routes
-- RESTful API structure
+## 🚀 Tech Stack
 
-## Tech Stack
 - Node.js
 - TypeScript
 - Express.js
-- JWT
-- bcrypt
+- Prisma ORM
+- PostgreSQL
+- JWT Authentication
 
-## API Endpoints
-
-### Authentication
-- POST /auth/register
-- POST /auth/login
-
-### Tasks
-- GET /tasks
-- POST /tasks
-- PUT /tasks/:id
-- DELETE /tasks/:id
-
-## How to Run Locally
-```bash
-npm install
-npm run dev
+## 📁 Project Structure
